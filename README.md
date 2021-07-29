@@ -3,4 +3,6 @@ This repository contains R code for a shiny app featuring data from the modern O
 
 To use this app locally, you can download the `shiny` app in R, clone or download this repository, and run `shiny::runApp("app.R")`.
 
-[Imgur](https://imgur.com/mFeQrnz)
+![Imgur](https://i.imgur.com/mFeQrnz.png)
+
+![screenshot of app](https://i.imgur.com/mFeQrnz.png)
