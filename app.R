@@ -151,7 +151,7 @@ server <- function(input, output, session) {
             theme_minimal() +
             geom_text(aes(label = paste0(n, " ", medal)), position = position_stack(vjust = 0.5), 
                       color = "white", size = 4, fontface = "bold") +
-            stat_summary(fun = sum, aes(label = paste(..y.., emo::ji("sports medal")), group = team), 
+            stat_summary(fun = sum, aes(label = paste(..y.., "medals"), group = team), 
                          geom = "text", vjust = -.3, size = 5) +
             labs(title = paste0("Top ", length(unique(barchartdatatop$team)), " Teams in the ", input$year, " ", input$season, 
                                 " Olympic Games"),
