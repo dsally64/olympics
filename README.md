@@ -4,6 +4,6 @@ This repository contains R code for a shiny app featuring data from the modern O
 To use this app locally, you can download the `shiny` app in R, clone or download this repository, and run `shiny::runApp("app.R")`.
  
 Once the app is opened, it should look like this:
-![screenshot of app](https://i.imgur.com/mFeQrnz.png)
+![screenshot of app](https://i.imgur.com/bsHzsxm.png)
 
 The main panel of the app displays a bar chart showcasing the top teams of the chosen games, in order of number of medals won. Below the bar chart is a table summarizing the medal winners of a specific event. The side panel allows users to select the season of the games (summer or winter), the year, the sport, and the event. 
